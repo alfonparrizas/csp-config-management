@@ -12,9 +12,6 @@ subjects:
 - kind: User
   name: paco@foo-corp.com
   apiGroup: rbac.authorization.k8s.io
-- kind: User
-  name: manolo@foo-corp.com
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: namespace-reader
